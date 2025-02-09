@@ -3,6 +3,7 @@ body {
     max-width: 400px; 
     margin: auto; 
     text-align: center;
+    background-color: rgba(43, 201, 201, 0.781);
 }
 
 input {
@@ -27,18 +28,18 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     margin: 5px 0;
     border-radius: 5px;
 }
 
 .completed {
     text-decoration: line-through;
-    color: gray;
+    color: grey;
 }
 
 button:first-of-type {
-    background-color: green;
+    background-color: rgb(240, 57, 157);
     color: white;
     border: none;
     padding: 5px;
@@ -46,7 +47,7 @@ button:first-of-type {
 }
 
 button:last-of-type {
-    background-color: red;
+    background-color: rgb(91, 219, 112);
     color: white;
     border: none;
     padding: 5px;
